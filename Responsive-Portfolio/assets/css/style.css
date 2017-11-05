@@ -1,0 +1,334 @@
+/* Porfolio Project style sheet */
+
+#container {
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		width: 1200px;
+}
+
+.row {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+
+#name{
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	padding-right: 40px;
+	padding-left: 40px;
+	position: static;
+}
+
+
+
+#nav
+{	
+/*	clear: both;
+*/	padding-right: 40%;
+	width: 960px;
+}
+
+.text {
+	color: #4aaaa5;
+}
+
+#text1 {
+
+	text-align: right;
+	padding-right: 0px;
+	padding-top: 30px;
+	background-color: #ffffff;
+	width: 100%;
+	height: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #777777;
+
+
+}
+
+#about, #about1 {
+
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	margin: 15px;
+	padding: 30px;
+	color: #777777;
+	line-height: 30px;
+
+}
+
+#Bio {
+	float: left;
+	width: 400px;
+	height: 400px;
+	padding: 10px;
+}
+
+	.form1 {
+				width: 650px;
+			}
+
+#connect {
+	float: left;
+	width: 270px;
+	background-color: #ffffff;
+/*	background: url(&quot;https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png&quot;);
+*/}
+
+#connect1 {
+
+	text-align: center;
+	font-weight: bold;
+}
+
+#connect2 {
+	background-color: #ffffff;
+}
+
+#text2 {
+
+	
+}
+
+#bottom, #footer {
+	clear: both;
+}
+
+.social {
+	width: 50px;
+	height: 50px;
+	padding-left: 20px;
+	
+}
+
+#git {
+	padding-left: 30px;
+}
+
+#copy {
+	text-align: center;
+}
+
+#footer {
+	width: 100%;
+	text-align:center;
+	background-color: #666666;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#gap {
+	clear: both;
+	background-color: #4aaaa5;
+	height: 10px;
+}
+
+#bottom {
+
+}
+
+.img1 {
+    float: left;
+    z-index: 2;
+    
+}
+
+#overlay {
+	position: relative;
+	bottom:0px;
+	
+	z-index: 3;
+	background-color: green;
+	color: white;
+	background-image: url(../images/Bio.jpg);
+	background-size: 100%;
+
+	height: 162px;
+	width: 100px;
+
+	
+}
+#overlaytext {
+	color: red;
+	margin: 0px;
+	text-align: center;
+	background-color: #4aaaa5;
+	color: white;	
+	line-height: normal;
+	height: 40px;
+	vertical-align: middle;
+	display: table-cell;
+	width: 450px;
+
+}
+
+@media screen and (max-width: 980px) {
+			#container{
+				width: 940px;
+			}
+
+			#text1{
+				width: 750px;
+			}
+
+			.form1 {
+				width: 650px;
+			}
+			#nav{
+				width: 100px;
+				padding-right: 20px;
+			}
+
+			#Bio {
+			float: none;
+			width: 400px;
+			height: 400px;
+			padding: 10px;
+		}
+
+			.form1 {
+				width: 450px;
+			}
+
+		#about, #about1 {
+
+			width: 450px;
+			float: left;
+			background-color: #ffffff;
+			margin: 15px;
+			padding: 30px;
+			color: #777777;
+			line-height: 30px;
+		}
+
+		#connect {
+			float: left;
+			width: 270px;
+			background-color: #ffffff;
+
+			}
+
+		#connect2 {
+			background-color: #ffffff;
+		/*	background: url(&quot;https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png&quot;);
+		*/}
+		}
+		#overlay {
+			height: 360px;
+			width: 450px;
+			}
+
+		#gap1{
+			width: 450px;
+			}
+
+@media screen and (max-width: 768px) {
+		#container{
+			width: 725px;
+		}
+
+		#text1{
+			width: 700px;
+		}
+		#nav{
+			width: 100px;
+			padding-right: 20px;
+		}
+
+		.form1 {
+				width: 650px;
+			}
+
+		#overlay {
+		height: 160px;
+		width: 250px;
+		float: left;
+		margin: 25px;
+		}
+		#gap1{
+		width: 0px;
+		height: 0px;
+		}
+
+
+		#about {
+			width: 650px;
+		}
+
+		#connect {
+		float: none;
+		width: 695px;
+		background-color: #ffffff;
+		padding-left: 15px;
+		margin-top: 860px;
+		margin-left: 15px;
+	/*	background-color: url(&quot;https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png&quot;);
+	*/
+		}
+		#connect1,#git{
+			text-align: left;
+			padding-left: 20px;
+		}
+		#connect2 {
+	/*	background-color: #ffffff;
+	*/	background-color: url(&quot;https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png&quot;);
+		}
+
+		#footer,#gap {
+			width: 725px;
+		}
+}
+
+@media screen and (max-width: 640px) {
+
+	#name, .form1 {
+		width: 450px; 
+	}
+
+	#text1{
+		text-align: center;
+		width: 450px;
+	}
+
+	#about {
+		width: 450px;
+	}
+		
+	#connect {
+		width: 495px; 
+	/*	margin: 15px;*/
+		margin-top: 980px;
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+
+	#connect2 {
+/*	background-color: #ffffff;
+*/	background-color: url(&quot;https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png&quot;);
+	}
+
+	#footer,#gap,.row{
+		width: 525px;
+	}
+	#name,#nav{
+		clear: both;
+		width: 445px;
+	}
+
+	#overlay {
+		height: 360px;
+		width: 450px;
+		}
+
+	#gap1{
+		width: 450px;
+	}
+}
+
+
+
+
+}
